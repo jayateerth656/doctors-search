@@ -1,3 +1,4 @@
+import 'package:doctors_schedule/patient_profile.dart';
 import 'package:doctors_schedule/scehdule.dart';
 import 'package:flutter/material.dart';
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home:FlightDetailsScreen(),
+      home:PatientProfile(),
     );
   }
 }
